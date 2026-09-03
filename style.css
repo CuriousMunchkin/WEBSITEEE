@@ -1,0 +1,108 @@
+.badan_tabel {
+    margin: auto;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.header {
+    background-color: #ffd3d4;
+    padding: 0px;
+    height: 100px;
+}
+
+.list_menu {
+    background-color: #d5ebe4;
+    margin: 5px;
+    width: auto;
+    padding: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.list_menu li {
+    float: none;
+    display: inline-block;
+    list-style-type: none;
+    border-right-width: 0px;
+    border-right-style: solid;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.list_menu li:hover {
+    background-color: #f8f4e8;
+    transform: scale(1.1);
+    transition: transform 0.2s ease, box-shadow 0.3s ease;
+    border-radius: 5px;
+}
+
+.list_menu li a {
+    text-decoration: none;
+     color: #5c4f4b;
+     font-weight: bold;
+}
+
+.list_menu li a:hover,
+.list_menu li a.active {
+    background-color: #f8f4e8;
+    font-weight: bold;
+    color: #5c4f4b;
+    transform: scale(1.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+.produk-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.produk {
+    text-align: center;
+    width: 150px;
+}
+
+.produk img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.produk p {
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.produk img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 15px rgba(66, 55, 53, 0.299);
+}
+
+h3 {
+    color: #5c4f4b;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+p {
+    color: #5c4f4b;
+    margin-left: 20px;
+}
+
+.foto {
+    display: flex;
+    align-items: center;
+}
+
+.foto img {
+    border-radius: 30px;
+    margin-right: 20px;
+}
